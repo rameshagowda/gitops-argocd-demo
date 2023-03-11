@@ -4,7 +4,7 @@ svcname: demoapp-svc
 env:
   HTTP_ADDR: :8080
 acr:
-  uri: "gitopsdemohelloacr.azurecr.io"
+  uri: ""
   image: demoapp
   tag: ""
   pull: Always
